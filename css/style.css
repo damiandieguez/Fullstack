@@ -1,0 +1,41 @@
+*{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+.listmenu{
+    list-style: none;
+    text-decoration: none;
+}
+body header ul li a {
+    text-decoration: none;
+}
+img:hover{
+    filter: saturate(0);
+}
+input:focus, select:focus, textarea:focus{
+    border: solid rgb(243, 207, 91) 4px;
+}
+input{
+    color: black;
+}
+button{
+    color: black;
+}
+#members ul li:nth-child(even){
+    border: rgb(85, 11, 11) solid;
+    background-color: rgb(85, 11, 11) solid;
+}
+#members ul li:nth-child(odd){
+    background-color:  rgb(209, 197, 28) solid !important;
+    border: rgb(209, 197, 28) solid;
+}
+a:hover{
+    font-size: x-large;
+}
+footer p::before {
+content: 😉;
+}

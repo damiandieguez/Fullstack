@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PILI JOOKS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+    <h1>PILI JOOKS</h1>
+    <nav>
+        <ul class="listmenu">
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#media">Multimedia </a></li>
+            <li><a href="#members">Integrantes</a></li>
+            <li><a href="#discography">Discografia</a></li>
+            <li><a href="#comments">Comentarios</a></li>
+        </ul>
+    </nav>
+    <hr />
+    </header>
+    <main>
+        <section id="about">
+            <img src="./Pilijooks.jpg" alt="Pilijooks">
+
+            <h2> Algo de la banda</h2>
+
+
+            <p>Pili Jooks es una banda formada en 2010 por un grupo de amigos oriundos de Longchamps (Zona sur de gran
+                Buenos Aires).<br>
+                Entre 2010 y 2014 se presentó en distintos escenarios de la zona, consolidando su identidad musical
+                dentro de la escena local.</p>
+        </section>
+
+        <section id="media">
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/N6UJL48X-rE?si=oqx5Ghg-8dUdoGO1&amp;start=90"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+            <ol>
+                <li>SERAN FELICES<audio src="./SERANFELICES.mp3" controls></audio></li>
+                <li>TU REALIDAD<audio src="./TU REALIDAD.mp3" controls></audio></li>
+                <li>VIENTOS<audio src="./vientos.mp3" controls></audio></li>
+            </ol>
+
+            <a href="https://www.youtube.com/@PiliJooks" target="_blank">Ver mas en Youtube</a>
+        </section>
+
+        <section id="members">
+            <h3>Integrantes</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/BarriosFernando" target="_blank">Fernando "Metralleta" Barrios</a>
+                </li>
+                <li><a href="https://www.facebook.com/esteban.bernardo.2021" target="_blank">Esteban "EL abu"
+                        Bernardo</a></li>
+                <li><a href="https://www.facebook.com/pablo.arcana" target="_blank">Pablo Aragone</a></li>
+                <li><a href="https://www.facebook.com/ferlopez.horn" target="_blank">Fernando "Chiche" Lopez Estrada</a>
+                </li>
+                <li><a href="https://www.facebook.com/nahuelgaston" target="_blank">Nahuel Gaston Devia</a></li>
+                <li><a href="https://www.facebook.com/damian.dieguez.5" target="_blank">Damian Dieguez</a></li>
+            </ul>
+        </section>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52374.332837324466!2d-58.41844006875075!3d-34.87140604866667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd5210dfb7a69%3A0x96268fcfed16bc8!2sLongchamps%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1774369105178!5m2!1ses-419!2sar"
+            width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <section id="discography">
+            <h2>Discografia</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Disco</th>
+                        <th>Año</th>
+                        <th>Cancion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Demo</td>
+                        <td>2010</td>
+                        <td>Seran felices</td>
+                    </tr>
+                    <tr>
+                        <td>Arcana</td>
+                        <td>2008</td>
+                        <td>Tu realidad</td>
+                    </tr>
+                    <tr>
+                        <td>Demo</td>
+                        <td>2010</td>
+                        <td>Vientos</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="comments">
+            <p>
+            <h3>Comentarios:</h3>
+            </p>
+            <form action="#" method="get">
+                <div>
+                    <label for="nombre"> Nombre: </label>
+                    <input type="text" name="nombre" />
+                </div>
+
+                <div>
+                    <label for="email"> Email: </label>
+                    <input type="email" name="email" />
+                </div>
+                <div>
+                    <label for="fecha-nacimiento"> Fecha nacimiento </label>
+                    <input type="date" />
+                </div>
+
+                <p>Género:</p>
+                <input type="radio" id="g-masc" name="genero" value="m" />
+                <label for="g-masc">Masculino</label>
+                <input type="radio" id="g-fem" name="genero" value="f" />
+                <label for="g-fem">Femenino</label>
+                <input type="radio" id="g-nobin" name="genero" value="n" />
+                <label for="g-nobin">No binario</label>
+                <input type="radio" id="g-indef" name="genero" value="i" />
+                <label for="g-indef">Prefiero no decir</label>
+
+                <p>
+                    <label for="usr-msg">Mensaje:</label> <br />
+                    <textarea id="usr-msg" name="mensaje" rows="4" cols="60"
+                        placeholder="Déjanos tu mensaje..."></textarea>
+                </p>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <footer>
+            <hr>
+            <p>© 2026 · Pili Jooks</p>
+        </footer>
+    </main>
+</body>
+
+</html>
