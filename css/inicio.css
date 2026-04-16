@@ -1,0 +1,49 @@
+* {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: antiquewhite;
+    min-height: 100vh;
+}
+
+.listmenu {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerName {
+    display: flex;
+    justify-content: center;
+}
+
+body header ul li a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: solid rgb(243, 207, 91) 4px;
+}
+
+input {
+    color: black;
+}
+
+button {
+    color: black;
+}
+
+footer{
+      margin-top: auto;
+}
